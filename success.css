@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*CABEÇALHO*/
+.header {
+    padding: 32px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: white;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.header p {
+    color:#4B2995;
+
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.localization { 
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #EBE5F9;
+    border-radius: 6px;
+}
+
+.cart {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    background-color: #F1E9C9;;
+}
+
+/*Conteúdo*/
+
+.title h1{
+    color: #C47F17;
+    font-family: "Baloo 2";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 100px 0 4px 160px;
+}
+
+.title h2 {
+    color: #403937;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 4px 0 40px 160px;
+}
+
+.order-info {
+    display: flex;
+    width: 526px;
+    padding: 40px;
+    margin-left: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 6px 36px;
+    border: 1px solid #DBAC2C;
+}
+
+.local {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.local img {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;border-radius: 1000px;
+    background:#8047F8;
+}
+
+.local p {
+    color: #574F4D;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.time img {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 1000px;
+    background: #DBAC2C;
+}
+
+.time p {
+    color: #574F4D;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.payment img {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 1000px;
+    background: #C47F17;
+}
+
+.payment p {
+    color: #574F4D;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* MOTOBOY */
+.motoboy img {
+    position: fixed;
+    top: 170px;
+    right: 160px;
+}

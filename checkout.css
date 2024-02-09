@@ -1,0 +1,506 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*CABEÇALHO*/
+.header {
+    padding: 32px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: white;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.header p {
+    color:#4B2995;
+
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.localization { 
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #EBE5F9;
+    border-radius: 6px;
+}
+
+.cart {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    background-color: #F1E9C9;;
+}
+
+/* COMPLETE SEU PEDIDO*/
+.title-complete-pedido {
+    display: flex;
+    font-family: "Baloo 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 100px 0 15px 160px;
+}
+
+/*ENDEREÇO*/
+
+.container {
+    position: absolute;
+    top: 180px;
+    width: 640px;
+    margin-left: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: #F3F2F2;
+}
+
+.address {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    background-color: #F3F2F2;
+    border-radius: 6px;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    flex: 1 0 0;
+}
+
+.text h2 {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text p {
+    display: flex;
+    height: 21px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+#cep {
+    display: flex;
+    width: 200px;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background: #EDEDED;
+}
+
+#rua {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background: #EDEDED;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+#numero {
+    display: flex;
+    width: 200px;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5 ;
+    background: #EDEDED ;
+}
+
+#complemento {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background:#EDEDED;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#bairro {
+    display: flex;
+    width: 200px;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background: #EDEDED;
+}
+
+#cidade {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background: #EDEDED;
+}
+
+#uf {
+    display: flex;
+    width: 60px;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;border-radius: 4px;
+    border: 1px solid #E6E5E5;
+    background: #EDEDED;
+}
+
+/*PAGAMENTO*/
+
+.payment {
+    display: flex;
+    padding: 40px;
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 6px;
+    background: #F3F2F2;
+}
+
+.ways-to-pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.ways-to-pay p {
+    color:#574F4D;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.credit {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: #E6E5E5;
+}
+
+.debit {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: #E6E5E5;
+}
+
+.money {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: #E6E5E5;
+}
+
+
+/* CAFÉS SELECIONADOS */
+
+.title-coffee-select {
+    color: #403937;
+    font-family: "Baloo 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: end;
+    margin: 100px 300px 15px 0px;
+}
+
+.title {
+    color: #403937;
+    font-family: "Baloo 2";
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+/* CAFÉS SELECIONADOS */
+
+.coffee-select {
+    display: flex;
+    margin-left: auto;
+    margin-right: 160px;
+    width: 448px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 6px 44px;
+    background: #F3F2F2;
+}
+
+.coffee-card {
+    display: flex;
+    padding: 8px 4px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background:#F3F2F2;
+}
+
+.info-coffee {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.coffee {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.detail h2 {
+    color: #403937;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.action {
+    display: flex;
+    height: 32px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #E6E5E5;
+    border-radius: 6px;
+}
+
+
+.action-button {
+    width: 14px;
+    height: 14px;
+    border: 0;
+    background-color: #E6E5E5;
+}
+
+.action-button img {
+    margin: 0 auto;
+    width: 10px;
+    height: 14px;
+}
+
+.quantity {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    width: 20px;
+    background-color: #E6E5E5;
+}
+
+.remove {
+    display: flex;
+    height: 32px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    background: #E6E5E5;
+}
+
+.remove p {
+    color: #574F4D;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.price {
+    color: #574F4D;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.total-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.total-itens h1 {
+    color: #574F4D;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;   
+}
+
+.taxa-delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.taxa-delivery h1 {
+    color: #574F4D;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.total h1 {
+    color: #403937;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.confirm {
+    display: flex;
+    padding: 12px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 6px;
+    background-color: #DBAC2C;
+    border: #DBAC2C;
+}
+
+.confirm h1 {
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+}

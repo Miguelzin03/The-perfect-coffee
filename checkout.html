@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Perfect Coffee</title>
+    <link rel="shortcut icon" href="assets/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="checkout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--NAVBAR-->
+
+    <div class="header">
+        <img src="assets/Logo.svg" alt="">
+        <div class="icons">
+            <div class="localization">
+                <img src="assets/loc.svg" alt="">
+                <p>Ceilândia, DF</p>
+            </div>
+            <div class="cart">
+                 <img src="assets/Icon carrinho.svg" alt="">
+            </div> 
+        </div>
+    </div>
+
+     <!--TÍTULO-->
+    <div class="title">
+
+        <div class="title-complete-pedido">
+            <h1><strong>Complete seu pedido</strong></h1>
+        </div>
+
+        <div class="title-coffee-select">
+            <strong><h1>Cafés Selecionados</h1></strong>
+        </div>
+    </div>
+
+    <!--CAFÉS SELECIONADOS -->
+    <div class="coffee-select">
+        <div class="coffee-card">
+            <div class="info-coffee">
+                <div class="coffee">
+                    <img src="assets/expresso tradicional mini.png" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Expresso Tradicional</h2>
+                    <div class="action">
+                        <button class="action-button minus" > <img width="15" src="assets/menos.svg" alt=""></button>
+                        <input class="quantity" type="1">
+                        <button class="action-button plus"> <img src="assets/mais.svg" alt=""></button>
+                        <div class="remove">
+                            <img src="assets/lixeira.svg" alt="">
+                            <p>REMOVER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <strong><p>R$ 9,90</p></strong>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <div class="info-coffee">
+                <div class="coffee">
+                    <img src="assets/latte22.png" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Latte</h2>
+                    <div class="action">
+                        <button class="action-button minus" > <img width="15" src="assets/menos.svg" alt=""></button>
+                        <input class="quantity" type="1">
+                        <button class="action-button plus"> <img src="assets/mais.svg" alt=""></button>
+                        <div class="remove">
+                            <img src="assets/lixeira.svg" alt="">
+                            <p>REMOVER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <strong><p>R$ 9,90</p></strong>
+            </div>
+        </div>
+        <div class="subtotal">
+            <div class="total-itens">
+                <h1>Total de itens</h1>
+                <h1>R$19,80</h1>
+            </div>
+            <div class="taxa-delivery">
+                <h1>Entrega</h1>
+                <h1>R$ 3,50</h1>
+            </div>
+            <div class="total">
+                <strong><h1>Total</h1></strong>
+                <strong><h1>R$ 23,30</h1></strong>
+            </div>
+            <button class="confirm"> <a href="file:///C:/Users/Micro/Desktop/The%20perfect%20coffee/success.html"> <h1>CONFIRMAR PEDIDO</h1> </a> </button>
+        </div>
+    </div>
+
+     <!--ENDEREÇO-COMPLETE SEU PEDIDO-->
+    <div class="container">
+        <div class="address">
+            <div class="info">
+                <img src="assets/loc22.svg" alt="">
+                <div class="text">
+                    <h2>Endereço de Entrega</h2>
+                    <p>Informe o endereço onde deseja receber seu pedido</p>
+                </div>
+            </div>
+            <div class="form">
+                <input type="number" name="cep" id="cep" placeholder="CEP">
+                <input type="text" name="rua" id="rua" placeholder="Rua">
+                <div class="delivery">
+                    <input type="number" name="número" id="numero" placeholder="Número">
+                    <input type="1" name="complemento" id="complemento" placeholder="Complemento">
+                    <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+                    <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                    <input type="text" name="uf" id="uf" placeholder="UF">
+                </div>
+            </div>
+        </div>
+
+         <!--PAGAMENTO-->
+        <div class="payment">
+            <div class="info">
+                <img src="assets/pagamento.svg" alt="">
+                <div class="text">
+                    <h2>Pagamento</h2>
+                    <p>O pagamento é feito na entrega. Escolha a forma que deseja pagar</p>
+                </div>
+            </div>
+            <div class="ways-to-pay">
+                <div class="credit">
+                    <img src="assets/cartão.svg" alt="">
+                    <p>CARTÃO DE CRÉDITO</p>
+                </div>
+                <div class="debit">
+                    <img src="assets/Débito.svg" alt="">
+                    <p>CARTÃO DE DÉBITO</p>
+                </div>
+                <div class="money">
+                    <img src="assets/money.svg" alt="">
+                    <p>DINHEIRO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
